@@ -1,0 +1,42 @@
+@import "../Globals.scss";
+
+.footer-container {
+  background-color: #2d314e;
+}
+
+.footer {
+  margin: 0 10% 0;
+  padding: 40px 0;
+  height: auto;
+  max-width: 2440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  & .brand__socials {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__button {
+  grid-column-start: 5;
+  text-align: right;
+  color: $color-secondary-lightgray;
+  font-size: 14px;
+  font-weight: 200;
+}

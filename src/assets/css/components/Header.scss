@@ -1,0 +1,36 @@
+@import "../Globals.scss";
+
+header {
+  max-width: 2440px;
+  margin: 0 10%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &__item {
+    margin: 0 10px;
+    & a {
+      padding: 23px 0;
+      text-decoration: none;
+      color: $color-secondary-gray;
+      border-bottom: 0px solid $color-main-green;
+      transition: all 0.1s ease-in-out;
+      &:hover {
+        color: darken($color-secondary-gray, 30%);
+        border-bottom: 4px solid $color-main-green;
+      }
+    }
+  }
+}
+
+.hamburger-menu {
+  display: none;
+}

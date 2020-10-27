@@ -1,0 +1,68 @@
+// VARIABLES
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+$color-main-blue: hsl(233, 26%, 24%);
+$color-main-green: hsl(136, 65%, 51%);
+$color-main-cyan: hsl(192, 70%, 51%);
+
+$main-degree: linear-gradient(
+  90deg,
+  $color-main-green 0%,
+  $color-main-cyan 100%
+);
+
+$color-secondary-gray: hsl(233, 8%, 62%);
+$color-secondary-lightgray: rgb(236, 236, 236);
+$color-secondary-very-lightgray: hsl(0, 0%, 98%);
+
+$font: "Public Sans";
+$font-size: 18px;
+
+body {
+  font-family: $font;
+}
+
+// BOTONES
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  &:active {
+    outline: none;
+  }
+  &--primary {
+    padding: 12px 25px;
+    background: $main-degree;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: filter 0.15s ease-in-out;
+    &:hover {
+      filter: brightness(1.08);
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $color-main-blue;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.hidden {
+  display: none;
+}
