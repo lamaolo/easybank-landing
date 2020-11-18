@@ -7,7 +7,7 @@ import articleBg3 from "../assets/static/image-plane.jpg";
 import articleBg4 from "../assets/static/image-confetti.jpg";
 
 const Articles = () => (
-  <div className="articles-container">
+  <div id="blog" className="articles-container">
     <div className="articles-title">
       <h2>Latest Articles</h2>
     </div>

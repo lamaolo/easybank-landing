@@ -7,7 +7,7 @@
 .about-us {
   margin: -300px 10% 0;
   padding: 80px 0;
-  max-width: 2440px;
+  max-width: $max-width;
 }
 
 .about-us__title {
@@ -43,5 +43,14 @@
     color: $color-secondary-gray;
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero__image {
+    margin-top: -150px;
+  }
+  .hero__info h1 {
+    font-size: 40px;
   }
 }

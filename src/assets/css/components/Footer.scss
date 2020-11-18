@@ -8,7 +8,7 @@
   margin: 0 10% 0;
   padding: 40px 0;
   height: auto;
-  max-width: 2440px;
+  max-width: $max-width;
   display: flex;
   justify-content: space-between;
 }
@@ -39,4 +39,17 @@
   color: $color-secondary-lightgray;
   font-size: 14px;
   font-weight: 200;
+}
+
+.attribution {
+  padding: 10px 0;
+  color: white;
+  margin: 0;
+  text-align: center;
+  & p {
+    margin: 0;
+  }
+  & a {
+    color: rgb(126, 203, 255);
+  }
 }

@@ -16,32 +16,34 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img className="logo__image" src={logo} alt="Logo" />
+        <a href="/">
+          <img className="logo__image" src={logo} alt="Logo" />
+        </a>
       </div>
       <nav className="main-menu" id="main-menu">
         <ul className="nav">
           <li className="nav__item">
-            <a className="" href="#">
+            <a href="/">
               Home
             </a>
           </li>
           <li className="nav__item">
-            <a className="" href="#">
+            <a href="#about-us">
               About
             </a>
           </li>
           <li className="nav__item">
-            <a className="" href="#">
+            <a href="/">
               Contact
             </a>
           </li>
           <li className="nav__item">
-            <a className="" href="#">
+            <a href="#blog">
               Blog
             </a>
           </li>
           <li className="nav__item">
-            <a className="" href="#">
+            <a href="/">
               Careers
             </a>
           </li>

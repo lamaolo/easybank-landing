@@ -7,7 +7,7 @@ import budgetingImage from "../assets/static/icon-budgeting.svg";
 import apiImage from "../assets/static/icon-api.svg";
 
 const AboutUs = () => (
-  <div className="aboutus-container">
+  <div id="about-us" className="aboutus-container">
     <div className="about-us">
       <div className="about-us__title">
         <h2>Why choose Easybank?</h2>

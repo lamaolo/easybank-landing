@@ -16,24 +16,34 @@ const Footer = () => (
           <img src={logo} alt="Logo" />
         </div>
         <div className="brand__socials">
-          <img src={facebook} alt="facebook" />
-          <img src={youtube} alt="youtube" />
-          <img src={twitter} alt="twitter" />
-          <img src={pinterest} alt="pinterest" />
-          <img src={instagram} alt="instagram" />
+          <a href="/">
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a href="/">
+            <img src={youtube} alt="youtube" />
+          </a>
+          <a href="/">
+            <img src={twitter} alt="twitter" />
+          </a>
+          <a href="/">
+            <img src={pinterest} alt="pinterest" />
+          </a>
+          <a href="/">
+            <img src={instagram} alt="instagram" />
+          </a>
         </div>
       </div>
 
       <div className="footer__links">
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-        <a href="#">About Us</a>
+        <a href="/">Blog</a>
+        <a href="/">Contact</a>
+        <a href="/">About Us</a>
       </div>
 
       <div className="footer__links">
-        <a href="#">Careers</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Support</a>
+        <a href="/">Careers</a>
+        <a href="/">Privacy Policy</a>
+        <a href="/">Support</a>
       </div>
 
       <div className="footer__button">
@@ -41,6 +51,9 @@ const Footer = () => (
         <p>© Easybank. All Rights Reserved.</p>
       </div>
     </div>
+    <div className="attribution">
+        <p>Challenge by <a rel="noopener noreferrer" target="_blank" href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Frontend Mentor</a>. Coded by <a  rel="noopener noreferrer" target="_blank" href="https://github.com/lamaolo">Lucero Amaolo</a></p>
+      </div>
   </div>
 );
 

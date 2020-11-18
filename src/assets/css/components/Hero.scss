@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   display: flex;
-  max-width: 2440px;
+  max-width: $max-width;
   margin: 0 0 0 10%;
   overflow: hidden;
   justify-content: space-between;

@@ -1,7 +1,7 @@
 @import "../Globals.scss";
 
 header {
-  max-width: 2440px;
+  max-width: $max-width;
   margin: 0 10%;
   height: 70px;
   display: flex;
